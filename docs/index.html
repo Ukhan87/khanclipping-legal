@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KhanClipping-Engine</title>
+<style>
+  :root {
+    --bg: #0F1115;
+    --panel: #16181D;
+    --text: #F5F5F0;
+    --muted: #A8ADB8;
+    --accent: #FFD400;
+    --border: #262A32;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--bg);
+    border: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .mark svg { width: 16px; height: 16px; }
+  h1 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 8px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0 0 40px;
+  }
+  section {
+    padding: 24px 0;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type { border-top: none; padding-top: 0; }
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: var(--text);
+  }
+  p {
+    margin: 0 0 12px;
+    color: #D6D9E0;
+    font-size: 0.95rem;
+  }
+  p:last-child { margin-bottom: 0; }
+  ul {
+    margin: 0 0 12px;
+    padding-left: 20px;
+    color: #D6D9E0;
+    font-size: 0.95rem;
+  }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="mark">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 4L20 12L6 20V4Z" fill="#FFD400"/>
+      </svg>
+    </div>
+    <div>
+      <h1>KhanClipping-Engine</h1>
+      <p class="updated">Personal automation tool</p>
+    </div>
+  </header>
+
+  <h2>KhanClipping-Engine</h2>
+  <p class="subtitle">Automated tool that generates, reviews, and schedules short-form narrated video content for personal TikTok accounts.</p>
+
+  <section>
+    <h3>About</h3>
+    <p>
+      KhanClipping-Engine is a personal automation tool built and operated by a
+      single individual for their own TikTok content accounts. It generates
+      short-form narrated videos, queues them for review, and publishes them
+      to connected accounts on the operator's behalf.
+    </p>
+    <p>
+      It is not a public product or service offered to other users. No
+      third-party accounts can be created, and access is not available
+      outside the operator's own use.
+    </p>
+  </section>
+
+  <section>
+    <h3>Legal</h3>
+    <ul>
+      <li><a href="./terms.html">Terms of Service</a></li>
+      <li><a href="./privacy.html">Privacy Policy</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Contact</h3>
+    <p>
+      Questions about these terms can be directed to the operator through the
+      contact information associated with the developer account under which
+      this application is registered.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2026 KhanClipping-Engine. All rights reserved.
+  </footer>
+
+</div>
+</body>
+</html>
